@@ -1,3 +1,3 @@
 ## Discover
 
-* Repository for studies from Discover from Rocketseat.
+* Repository for studies from the Discover from Rocketseat.
