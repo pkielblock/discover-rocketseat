@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="" method="" id="form" enctype="multipart/form-data">
+        <fieldset name="inputs">
+            <legend>Contato</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" placeholder="Seu Nome" id="nome" required>
+            <button autofocus type="submit" name="button" value="value" form="form">Submit</button>
+            <button type="reset">Reset</button>
+        </fieldset>
+        <fieldset name="datalist">
+            <legend>Datalist</legend>
+            <input type="text" name="frutas" list="fruitsdata" placeholder="Choose a Fruit">
+            <datalist id="fruitsdata">
+                <option>apple</option>
+                <option>banana</option>
+                <option>mango</option>
+                <option>orange</option>
+                <option>cherry</option>
+            </datalist>
+            <datalist id="colorsdata">
+                <option>#FF0000</option>
+                <option>#00FF00</option>
+            </datalist>
+            <input type="color" name="cores" list="colorsdata">
+        </fieldset>
+        <fieldset>
+            <legend>Senha</legend>
+            <input type="password"
+                minlength="8"
+                maxlength="16"
+                size="16"
+                pattern="[0-9a-fA-F]{8,16}"
+                title="Min 8 Max 16"
+                placeholder="Password"
+                inputmode="numeric"
+                autocomplete="current-password"
+            >
+            <button type="submit">Send</button>
+        </fieldset>
+        <fieldset>
+            <legend>File</legend>
+            <input type="file">
+        </fieldset>
+        <fieldset>
+            <legend>Checkbox</legend>
+            <div>
+                <input type="checkbox" name="subscribe" id="subscribe" checked required>
+                <label for="subscribe">Notfications</label>
+            </div>
+            <div>
+                <input type="checkbox" name="subscribe" id="subscribe" required>
+                <label for="subscribe">Audio</la>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Radio</legend>
+            <label for="yes">Sim</label>
+            <input type="radio" name="question" value="yes" id="yep">
+            <label for="no">Não</label>
+            <input type="radio" name="question" value="no" id="nope">
+        </fieldset>
+        <fieldset>
+            <legend>TextArea</legend>
+            <div>
+                <label for="msg"></label>
+                <textarea name="msg" id="msg" cols="60" rows="2" placeholder="Digite sua Msg"></textarea>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Select</legend>
+            <div>
+                <label for="carselect">Model: </label>
+                <select name="carmodel" id="carselect">
+                    <option value="fusca">Fusca</option>
+                    <option value="gol">Gol</option>
+                    <option value="chevete">Chevete</option>
+                    <option value="saveiro">Saveiro</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="optgroup">Optgroup: </label>
+                <select name="pets" multiple size="4">
+                    <optgroup label="4-legged pets">
+                        <option value="dog">Dog</option>
+                        <option value="cat">Cat</option>
+                    </optgroup>
+                    <optgroup label="flying pets">
+                        <option value="macaw">Macaw</option>
+                        <option value="Parrot">Parrot</option>
+                    </optgroup>
+                </select>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

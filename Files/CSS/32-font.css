@@ -1,0 +1,15 @@
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2em;
+    font-variant: small-caps;
+    font-stretch: condensed;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    line-height: 2;
+    text-transform: uppercase;
+    text-decoration: underline wavy red;
+    text-align: center;
+    text-shadow: 1px 1px 1px red;
+}
