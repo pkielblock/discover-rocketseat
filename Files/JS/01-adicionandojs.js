@@ -1,3 +1,3 @@
 //Exibir mensagem no console
 
-console.log('Adding JS File to a HTML')
+console.log('Adding JS File to a HTML');
