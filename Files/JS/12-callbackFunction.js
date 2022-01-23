@@ -6,10 +6,10 @@ function sayMyName(name) {
     name()
 
     console.log('depois de executar a funcao callback');
-};
+}
 
 sayMyName(
     () => {
         console.log('estou em uma callback');
     }
-);
+)

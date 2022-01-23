@@ -6,7 +6,7 @@ function Person(name){
     this.walk = () => {
         return this.name + ' is walking';
     }
-};
+}
 
 const pedro = new Person('Pedro');
 const henrique  = new Person('Henrique');
