@@ -1,0 +1,12 @@
+.box {
+    display: flex;
+    border: 1px dashed red;
+}
+
+.box div {
+    border: 1px solid;
+}
+
+.box div:nth-child(1) {
+    flex-basis: 25px;
+}
