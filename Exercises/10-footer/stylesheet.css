@@ -1,0 +1,15 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    margin: 0;
+}
+
+footer {
+    margin-top: auto;
+    background-color: lightblue;
+    height: 8rem;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

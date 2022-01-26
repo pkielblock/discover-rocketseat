@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .8rem;
+}
+
+img {
+    width: 30%;
+    height: auto;
+}
