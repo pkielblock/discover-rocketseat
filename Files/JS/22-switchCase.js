@@ -20,7 +20,7 @@ function calculate(number1, operator, number2) {
     }
 
     return result;
-};
+}
 
 console.log(calculate(4, '+', 8));
 console.log(calculate(4, '-', 8));
